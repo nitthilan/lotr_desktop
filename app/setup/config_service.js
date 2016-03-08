@@ -14,7 +14,7 @@ angular.module('lotr_desktop')
     that.config = {
         development: {
             tag: "development",
-            server_address: "http://localhost:3000/",
+            server_address: "http://10.230.149.130:3000/",
             db_base_path: "db/devel/",
             root: require('path').normalize(process.cwd() + "/app")+"/",
         },
