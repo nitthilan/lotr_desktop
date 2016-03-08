@@ -1,0 +1,15 @@
+{
+  "name": "lotr_desktop",
+  "version": "0.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "angular-material": "~1.0.5",
+    "angular-ui-router": "^0.2.18",
+    "socket.io-client": "^1.4.5"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="lotr_desktop">
+<head>
+	<link href="../bower_components/angular-material/angular-material.css" rel="stylesheet" />
+</head>
+
+<body ng-cloak layout="column">
+	<div ui-view class="container" layout="row" flex></div>	
+
+	<script src="../bower_components/angular/angular.js" type="text/javascript" ></script>
+	<script src="../bower_components/angular-animate/angular-animate.js" type="text/javascript" ></script>
+	<script src="../bower_components/angular-aria/angular-aria.js" type="text/javascript" ></script>
+	<script src="../bower_components/angular-material/angular-material.js" type="text/javascript" ></script>
+	<script src="../bower_components/angular-ui-router/release/angular-ui-router.js" type="text/javascript" ></script>
+	<script src="../bower_components/socket.io-client/socket.io.js" type="text/javascript" ></script>
+
+
+	<script src="setup/main.js" type="text/javascript" ></script>
+
+	<script src="db/db_service.js" type="text/javascript" ></script>
+
+	<script src="user_management/login_controller.js" type="text/javascript" ></script>
+	<script src="user_management/user_home_controller.js" type="text/javascript" ></script>
+	<script src="user_management/remember_me_service.js" type="text/javascript" ></script>
+	<script src="user_management/display_message_service.js" type="text/javascript" ></script>
+	<script src="user_management/user_profile_service.js" type="text/javascript" ></script>
+	
+	<script src="ping_pong_network/external_server_client_service.js" type="text/javascript" ></script>
+	<script src="ping_pong_network/local_hub_client_service.js" type="text/javascript" ></script>
+	<script src="ping_pong_network/device_profile_service.js" type="text/javascript" ></script>
+
+
+	<script src="setup/config_service.js" type="text/javascript" ></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "lotr_desktop",
+  "version": "0.0.0",
+  "description": "local hub and client device to be controlled",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "node app/setup/main.js | node_modules/.bin/bunyan",
+    "dbdevel": "mongod --dbpath ./db/devel --port 27000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitthilan"
+  },
+  "keywords": [
+    "lord of the rings",
+    "one device to control them all",
+    "nodejs",
+    "backend server"
+  ],
+  "author": "kjn",
+  "license": "BSD",
+  "dependencies": {
+    "bunyan": "^1.6.0",
+    "mongoose": "^4.4.4",
+    "nedb": "^1.8.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "chrome-remote-interface": "^0.11.0",
+    "chromedriver2": "^2.12.1",
+    "selenium-webdriver": "^2.52.0",
+    "wd": "^0.4.0"
+  },
+  "engines": {
+    "node": "0.12.6",
+    "npm": "2.11.2"
+  }
+}
